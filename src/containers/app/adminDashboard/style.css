@@ -1,0 +1,104 @@
+.card-style {
+  background-color: #d70f64;
+  padding: 18px;
+}
+
+.avatar-container:before {
+  content: "";
+  position: absolute;
+  width: 210px;
+  height: 210px;
+  background: #be0d57;
+  border-radius: 50%;
+  top: -85px;
+  right: -95px;
+}
+
+.avatar-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  z-index: 999;
+}
+
+.myclass:before {
+  content: "";
+  position: absolute;
+  width: 210px;
+  height: 210px;
+  background: #d0417d;
+  border-radius: 50%;
+  top: -125px;
+  right: -15px;
+  opacity: 0.5;
+}
+
+.container-two::before {
+  content: "";
+  position: absolute;
+  width: 210px;
+  height: 210px;
+  background: #1976d3;
+  border-radius: 50%;
+  top: -125px;
+  right: -15px;
+  opacity: 0.5;
+}
+
+.avatar-container-two:before {
+  content: "";
+  position: absolute;
+  width: 210px;
+  height: 210px;
+  background: #1565c0;
+  border-radius: 50%;
+  top: -85px;
+  right: -95px;
+}
+
+.product-container:before {
+  content: "";
+  position: absolute;
+  width: 210px;
+  height: 210px;
+  background: #ca479c;
+  border-radius: 50%;
+  top: -125px;
+  right: -15px;
+  opacity: 0.5;
+}
+
+.main-users::before {
+  content: "";
+  position: absolute;
+  width: 210px;
+  height: 210px;
+  background: #a1367c;
+  border-radius: 50%;
+  top: -85px;
+  right: -95px;
+  z-index: 1;
+}
+
+.avatar-style {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-family: Roboto, sans-serif;
+  line-height: 1;
+  overflow: hidden;
+  user-select: none;
+  color: rgb(30, 136, 229);
+  background-color: rgb(69, 39, 160) !important;
+  cursor: pointer;
+  border-radius: 8px !important;
+  width: 44px !important;
+  height: 44px !important;
+  font-size: 1.5rem !important;
+  margin-top: 8px !important;
+}
